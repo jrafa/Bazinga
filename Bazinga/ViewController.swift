@@ -52,9 +52,10 @@ class ViewController: UIViewController {
     }
     
     private func prepareSoundBazinga() {
-        if let soundPath = Bundle.main.path(forResource: "bazinga", ofType: "mp3") {
+
+        if let soundAsset = NSDataAsset(name: "sound") {
             do {
-                sound = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: soundPath))
+                sound = try AVAudioPlayer(data: soundAsset.data)
             } catch {
                 print("Ups, problem with file :(")
             }
@@ -94,7 +95,6 @@ class ViewController: UIViewController {
             width: imageWidthHeight,
             height: imageWidthHeight
         )
-        
     }
     
     func displayBazinga(sender: AnyObject) {

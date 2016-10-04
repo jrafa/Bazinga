@@ -12,7 +12,6 @@
 		A99978521D956130002B80F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A99978501D956130002B80F7 /* Main.storyboard */; };
 		A99978541D956130002B80F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99978531D956130002B80F7 /* Assets.xcassets */; };
 		A99978571D956130002B80F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A99978551D956130002B80F7 /* LaunchScreen.storyboard */; };
-		A99978611DA07721002B80F7 /* bazinga.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A99978601DA07721002B80F7 /* bazinga.mp3 */; };
 		A99978631DA195D1002B80F7 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = A99978621DA195D1002B80F7 /* readme.md */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +23,6 @@
 		A99978531D956130002B80F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A99978561D956130002B80F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A99978581D956130002B80F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A99978601DA07721002B80F7 /* bazinga.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bazinga.mp3; path = ../../../Desktop/bazinga.mp3; sourceTree = "<group>"; };
 		A99978621DA195D1002B80F7 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,7 +57,6 @@
 		A999784B1D956130002B80F7 /* Bazinga */ = {
 			isa = PBXGroup;
 			children = (
-				A999785F1DA076E8002B80F7 /* audio */,
 				A999784C1D956130002B80F7 /* AppDelegate.swift */,
 				A999784E1D956130002B80F7 /* ViewController.swift */,
 				A99978501D956130002B80F7 /* Main.storyboard */,
@@ -68,14 +65,6 @@
 				A99978581D956130002B80F7 /* Info.plist */,
 			);
 			path = Bazinga;
-			sourceTree = "<group>";
-		};
-		A999785F1DA076E8002B80F7 /* audio */ = {
-			isa = PBXGroup;
-			children = (
-				A99978601DA07721002B80F7 /* bazinga.mp3 */,
-			);
-			name = audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +128,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A99978571D956130002B80F7 /* LaunchScreen.storyboard in Resources */,
-				A99978611DA07721002B80F7 /* bazinga.mp3 in Resources */,
 				A99978541D956130002B80F7 /* Assets.xcassets in Resources */,
 				A99978521D956130002B80F7 /* Main.storyboard in Resources */,
 			);
